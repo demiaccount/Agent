@@ -27,7 +27,7 @@ tools = [weather_tool]
 # 豆包API支持OpenAI兼容格式
 model = ChatOpenAI(
     model="doubao-3.5t",  # 豆包3.5T模型
-    api_key="ark-1ac22311-4989-4149-bbb4-8fabfb1c1ee2-55fd7",  # 你的豆包API Key
+    api_key="XXX",  # 你的豆包API Key
     base_url="https://api.doubao.com/v1",  # 豆包API地址
     temperature=0.1,
     max_tokens=1000,
